@@ -1,6 +1,6 @@
 # <img src="logo-polygon.svg" width="270" height="270" style="vertical-align: middle;">   |   Dual-Pattern Enterprise RAG
 <img src="rag-polygon.png" alt="RAG System Banner" width="60%">
-## Retriever-Generator Blame Attribution System for Executive Decision Support
+Retriever-Generator Blame Attribution System for Executive Decision Support
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![Python 3.11+](https://img.shields.io/badge/python-3.11+-blue.svg)](https://www.python.org/)
