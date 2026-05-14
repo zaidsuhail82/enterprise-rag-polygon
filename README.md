@@ -1,4 +1,4 @@
-# Enterprise Knowledge Platform
+# Dual-Pattern Enterprise RAG
 ### Retriever-Generator Blame Attribution RAG System
 
 A production-grade, privately-deployed RAG system for board-level executive decision support.
