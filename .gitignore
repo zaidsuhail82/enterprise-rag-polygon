@@ -1,0 +1,59 @@
+# ── Python ───────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg
+*.egg-info/
+dist/
+build/
+*.so
+.eggs/
+
+# ── Virtual environments ──────────────────────────────────────────────────────
+venv/
+.venv/
+env/
+.env.bak
+
+# ── CRITICAL: secrets ─────────────────────────────────────────────────────────
+.env
+secrets/
+*.json
+!frontend/package.json
+!frontend/tsconfig.json
+!frontend/tsconfig.node.json
+!evaluation/results/batch_results.json
+
+# ── Data ─────────────────────────────────────────────────────────────────────
+data/*.pkl
+data/*.index
+data/sync_token.json
+data/corpus.jsonl
+data/bm25_index.pkl
+
+# ── ML model caches ───────────────────────────────────────────────────────────
+.cache/
+*.bin
+*.safetensors
+models/
+
+# ── Node / Frontend ───────────────────────────────────────────────────────────
+frontend/node_modules/
+frontend/dist/
+
+# ── Docker ────────────────────────────────────────────────────────────────────
+docker/volumes/
+
+# ── IDE ───────────────────────────────────────────────────────────────────────
+.vscode/settings.json
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# ── Test / coverage ───────────────────────────────────────────────────────────
+.pytest_cache/
+.coverage
+htmlcov/
