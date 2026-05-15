@@ -7,7 +7,7 @@
 </div>
 
 <div align="center">
-  <img src="rag-polygon.png" alt="RAG System Banner" width="50%">
+  <img src="rag-polygon.png" alt="RAG System Banner" width="100%">
 </div>
 
 <div align="center">
