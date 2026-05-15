@@ -1,19 +1,39 @@
-# <img src="logo-polygon.svg" width="270" height="270" style="vertical-align: middle;">   |   Dual-Pattern Enterprise RAG
-<img src="rag-polygon.png" alt="RAG System Banner" width="60%">
-Retriever-Generator Blame Attribution System for Executive Decision Support
+<div align="center">
+  <img src="logo-polygon.svg" width="220" />
+</div>
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
-[![Python 3.11+](https://img.shields.io/badge/python-3.11+-blue.svg)](https://www.python.org/)
-[![FastAPI](https://img.shields.io/badge/FastAPI-0.111-green.svg)](https://fastapi.tiangolo.com/)
-[![Qdrant](https://img.shields.io/badge/Qdrant-1.9-red.svg)](https://qdrant.tech/)
-[![Mistral](https://img.shields.io/badge/Mistral-7B-orange.svg)](https://mistral.ai/)
-[![Cloudflare](https://img.shields.io/badge/Cloudflare-Access-purple.svg)](https://cloudflare.com)
+<div align="center">
+  <h1>Dual-Pattern Enterprise RAG</h1>
+</div>
+
+<div align="center">
+  <img src="rag-polygon.png" alt="RAG System Banner" width="50%">
+</div>
+
+<div align="center">
+  <em>Retriever-Generator Blame Attribution System for Executive Decision Support</em>
+</div>
+
+<br>
+
+<div align="center">
+  <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue.svg" alt="License: MIT"></a>
+  <a href="#"><img src="https://img.shields.io/badge/python-3.11+-blue.svg" alt="Python 3.11+"></a>
+  <a href="#"><img src="https://img.shields.io/badge/FastAPI-0.111-green.svg" alt="FastAPI"></a>
+  <a href="#"><img src="https://img.shields.io/badge/Qdrant-1.9-red.svg" alt="Qdrant"></a>
+  <a href="#"><img src="https://img.shields.io/badge/Mistral-7B-orange.svg" alt="Mistral 7B"></a>
+  <a href="#"><img src="https://img.shields.io/badge/Cloudflare-Access-purple.svg" alt="Cloudflare Access"></a>
+</div>
+
+<br>
 
 > **A production-grade, privately-deployed RAG system built for Polygon Technology.**
 > 
-> Connects to Google Drive, performs hybrid retrieval, generates grounded answers with inline citations, and **attributes every failure to the exact component** — retriever or generator — with a structured explainability layer.
+> Connects to Google Drive, performs hybrid retrieval, generates grounded answers with inline citations, and **attributes every failure to the exact component**, retriever or generator with a structured explainability layer.
 
-**🎯 Built for board-level executives. Achieves sub-2s latency, 92% faithfulness, and zero data egress.**
+<div align="center">
+  <strong>🎯 Built for board-level executives. Achieves sub-2s latency, 92% faithfulness, and zero data egress.</strong>
+</div>
 
 ---
 
@@ -31,6 +51,8 @@ Retriever-Generator Blame Attribution System for Executive Decision Support
 ---
 
 ## 🏗️ Architecture at a Glance
+
+
 
 
 ```
@@ -302,14 +324,14 @@ See `.env.example` for the full list. Key variables:
 | 7 | Cloudflare Access config, production Docker, CI/CD |
 | 8 | Evaluation, ablations, monitoring |
 
-### 1. Team
-```bash
-Muhammad Zaid Suhail
-```
-```bash
-Griffen Elliot
-```
+## 👥 Team
 
-```bash
-Jawad Mubashawir
-```
+<div align="center">
+  <table>
+    <tr>
+      <td align="center"><strong>Muhammad Zaid Suhail</strong><br>
+      <td align="center"><strong>Griffen Elliot</strong><br>
+      <td align="center"><strong>Jawad Mubashwir</strong><br>
+    </tr>
+  </table>
+</div>
